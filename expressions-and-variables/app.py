@@ -21,7 +21,18 @@ print((3+4)*2)
 total_count = 4 + 3 + 5
 tax = 3
 
-
 sub_total = total_count + tax
 
 print(sub_total , "$")
+
+
+## ---
+
+
+x = 5
+y = 2*x**2-3
+
+print(y)
+
+
+print(11//2)
