@@ -39,3 +39,11 @@ print(int(False)) ## output should be 0
 
 print(6//2) ## return a int
 print(6/2) ## return a float
+
+
+## ----
+
+print("hello" == 'hello') ## True
+print(type('hello' == 'world')) ## bool
+
+
