@@ -70,7 +70,12 @@ print(nameD)
 
 ## split
 split_name = name.split()
-print(split_name)
+print(split_name , "Goooooood")
+
+
+## strip
+messy = "###@@@ Python Programming@@##"
+print(messy.strip("#@"))
 
 ## RegEx
 import re
@@ -90,9 +95,9 @@ result_number = re.search(pattern , s1)
 print(result_number.span())
 
 
-patternB = r"\W"
-result_symbol = re.findall(patternB , s1)
-print(result_symbol)
+patternB = r"\w\w\w\w\w\w\w\w\w\w\w"
+result_symbol = re.split(patternB , messy)
+print(result_symbol , "check")
 
 ## \d	Matches any digit character (0-9)	"123" matches "\d\d\d"
 ## \D	Matches any non-digit character	"hello" matches "\D\D\D\D\D"
