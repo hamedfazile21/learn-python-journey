@@ -27,4 +27,7 @@ print(tup1)
 
 ## sliceing
 print(tup[0:3])
-print(tup[4:-1])
+
+
+## length
+print(len(chart))
