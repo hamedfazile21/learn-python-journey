@@ -11,9 +11,6 @@ tup = ('Hamed' , 18 , False , 85.9)
 print(tup)
 
 
-## access with index
-print(tup[0] , chart[3:5])
-
 
 ## the index access is the same with string
 
@@ -39,3 +36,16 @@ rate2 = rate
 ## sort fun
 sort_rate = sorted(rate)
 print(sort_rate)
+
+
+## nesting tuples
+nest = (("hamed" , "mahsa" , "mahmood" , "maryam") , (19 , 18 , 24 , 21))
+print(nest)
+
+## access with index
+print(tup[0] , tup[1:3])
+
+## nest index access
+print(nest[0][1])
+
+
