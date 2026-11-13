@@ -4,17 +4,12 @@
 chart = (32,32,21,34,221,2,1111,2)
 print(chart)
 
-
 ## print(type(chart))
-
 
 tup = ('Hamed' , 18 , False , 85.9)
 print(tup)
 
-
-
 ## the index access is the same with string
-
 
 ## concatenating
 tup1 = ("Hamed")
@@ -70,3 +65,14 @@ nums.pop(1) # removing with index
 
 print(nums)
 
+
+# with lists we can use nagative index
+print(nums[-1]) # => show the last element of the list
+
+# extend method
+numbers = [2,6,4,3,2,5]
+larg_num = [32,12,4,12,4,12,4]
+
+numbers.extend(larg_num)
+
+print(numbers)
