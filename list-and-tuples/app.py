@@ -24,3 +24,7 @@ tup2 = ("Mahsa")
 
 tup1 = tup2 + ("Hamed")
 print(tup1)
+
+## sliceing
+print(tup[0:3])
+print(tup[4:-1])
