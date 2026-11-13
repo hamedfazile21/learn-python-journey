@@ -31,3 +31,11 @@ print(tup[0:3])
 
 ## length
 print(len(chart))
+
+
+## immutable
+rate = (10,4,9,8,3,2,1,5,6,7)
+rate2 = rate
+## sort fun
+sort_rate = sorted(rate)
+print(sort_rate)
