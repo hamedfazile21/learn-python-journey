@@ -75,4 +75,20 @@ larg_num = [32,12,4,12,4,12,4]
 
 numbers.extend(larg_num)
 
+
+
+# delete and element by del
+
+del(numbers[-1])
+
 print(numbers)
+
+
+# split the string
+
+txt = "M,a,h,m,o,o,d"
+spli = txt.split(",")
+print(spli)
+
+print(nums[:])
+print(help(nums))
