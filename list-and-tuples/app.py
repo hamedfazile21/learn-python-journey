@@ -108,4 +108,10 @@ num_list.insert(0 , 10) # index and the value
 # pop delete
 num_list.pop(0)
 
-print(num_list)
+
+# reverse method
+# one of the usage to set method is to sort an list and we use list becuase the set method return an object and we need to conver that into list
+uniqe = list(set(num_list))
+uniqe.reverse()
+
+print(uniqe)
