@@ -91,4 +91,11 @@ spli = txt.split(",")
 print(spli)
 
 print(nums[:])
-print(help(nums))
+
+
+# count method
+num_list = [1,2,3,2,3,4,5,22,2,2]
+two = num_list.count(2)
+
+print(two)
+
