@@ -16,3 +16,13 @@ print(profile)
 del(profile["faivorate_colors"])
 
 print(profile)
+
+# check if any key exist or not
+
+print("job" in profile) # False
+print("sex" in profile) # True
+
+
+# list keys and value
+print(profile.keys())
+print(profile.values())
