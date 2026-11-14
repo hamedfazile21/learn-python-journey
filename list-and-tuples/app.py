@@ -103,4 +103,9 @@ two = num_list.count(2)
 
 num_list.insert(0 , 10) # index and the value
 
+
+
+# pop delete
+num_list.pop(0)
+
 print(num_list)
