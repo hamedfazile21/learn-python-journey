@@ -44,6 +44,12 @@ print(tup[0] , tup[1:3])
 ## nest index access
 print(nest[0][1])
 
+# min and max
+min_number = min(rate)
+max_number = max(rate)
+
+print(min_number , max_number)
+
 ## =============================== List ========================
 
 nums = [5,3,2,7,6,8,9,10,1]
