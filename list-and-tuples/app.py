@@ -97,5 +97,10 @@ print(nums[:])
 num_list = [1,2,3,2,3,4,5,22,2,2]
 two = num_list.count(2)
 
-print(two)
 
+
+# insert method
+
+num_list.insert(0 , 10) # index and the value
+
+print(num_list)
