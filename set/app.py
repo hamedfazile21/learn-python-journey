@@ -1,7 +1,7 @@
 
 # set can not containes dublicate value
-first_set = {"hamed" , "mahmood" , "mozamel" , "modaser"}
-
+first_set = {"hamed" , "mahmood" , "mozamel" , "modaser" , "boshra"}
+second_set = {"osaid" , "boshra" , "onais" , 'sohail'}
 # type of set
 print(type(first_set))
 print(first_set)
@@ -28,4 +28,21 @@ print(first_set)
 
 # check if any item exsit to a set
 
-print("mhasa" in first_set)
+print("mhasa" in first_set) # False if not exist True if exsit
+
+# comper two set
+# take only item that exsit in both set
+third_set = first_set & second_set
+
+print(third_set)
+
+# take all items but not dublicate
+both_item = first_set.union(second_set)
+
+print(both_item)
+
+# take items that is located in both
+# if the second_set items all exsit in the first_set it will return True otherwise return False
+both = second_set.issubset(first_set)
+
+print(both)
