@@ -25,3 +25,7 @@ print(first_set)
 first_set.remove("mahsa")
 
 print(first_set)
+
+# check if any item exsit to a set
+
+print("mhasa" in first_set)
