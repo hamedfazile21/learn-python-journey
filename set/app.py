@@ -34,7 +34,7 @@ print("mhasa" in first_set) # False if not exist True if exsit
 # take only item that exsit in both set
 third_set = first_set & second_set
 
-print(third_set)
+print(third_set , "===============================================")
 
 # take all items but not dublicate
 both_item = first_set.union(second_set)
@@ -44,5 +44,11 @@ print(both_item)
 # take items that is located in both
 # if the second_set items all exsit in the first_set it will return True otherwise return False
 both = second_set.issubset(first_set)
-
 print(both)
+
+
+#  Find the difference in set1 but not set2
+print(first_set.difference(second_set))
+
+
+print(first_set.intersection(second_set))
