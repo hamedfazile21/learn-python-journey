@@ -34,7 +34,7 @@ print("mhasa" in first_set) # False if not exist True if exsit
 # take only item that exsit in both set
 third_set = first_set & second_set
 
-print(third_set , "===============================================")
+print(third_set , "==============================================="
 
 # take all items but not dublicate
 both_item = first_set.union(second_set)
