@@ -1,7 +1,7 @@
 # ==================== comparison operator ==========
 
 a = 6
-b = 3
+b = 6
 
 # return True if a = b and False if not a = b 
 print(a==b)
@@ -18,7 +18,8 @@ print(a!=b)
 
 
 # ===================== Branching ==================
-age = input("Inter you age: ")
+# age = input("Inter you age: ")
+age = 18
 
 
 if(int(age)>=19):
@@ -31,6 +32,29 @@ else:
 # =========== logical operator =============
 
 print(not(True))
+
+
+# or
+
+print(a>=5 or b<=5)
+
+
+if(a>=5) or (b<=5):
+    print("True")
+else:
+    print("False")
+
+
+# and
+
+print(a>=5 and b<=5)
+
+
+if(a>=5) and (b<=5):
+    print("True")
+else:
+    print("False")
+
 
 
 
