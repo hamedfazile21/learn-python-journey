@@ -17,3 +17,15 @@ print(a!=b)
 # we can also use the above comperison for strings
 
 
+# ===================== Branching ==================
+age = input("Inter you age: ")
+
+
+if(int(age)>19):
+    print("you can inter")
+else:
+    print("you can not inter")
+
+
+
+
