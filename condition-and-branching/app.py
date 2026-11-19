@@ -21,11 +21,16 @@ print(a!=b)
 age = input("Inter you age: ")
 
 
-if(int(age)>19):
+if(int(age)>=19):
     print("you can inter")
+elif(int(age)==18):
+    print("You can inter in another section")
 else:
     print("you can not inter")
 
+# =========== logical operator =============
+
+print(not(True))
 
 
 
